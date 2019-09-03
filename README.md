@@ -1,4 +1,4 @@
-# Dynamic Local Regret for Non-convex Online_Forecasting
+# Dynamic Local Regret for Non-convex Online Forecasting
 
 This repository contains implementation details and the preprint of our paper **Dynamic Local Regret for Non-convex Online Forecasting** by Sergul Aydore, Tianhao Zhu and Dean Foster to appear at NeurIPS 2019.
 
