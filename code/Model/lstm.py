@@ -4,7 +4,7 @@ import torch
 import math
 from torch.autograd import Variable
 from time import time
-from data_loader import DataLoader
+from Data_Loader.data_loader import DataLoader
 
 
 # LSTM model
@@ -63,7 +63,7 @@ class LSTM(nn.Module):
                 times.append(duration)
         return losses, times
 
-    def train_online_hsgd(self, x, y, w, optimizer):
+    def train_online_stssgd(self, x, y, w, optimizer):
         self.train()
         losses = []
         times = []

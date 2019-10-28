@@ -1,6 +1,6 @@
 import pandas as pd
-from reshape_data import reshape_data
-from to_supervised import to_supervised
+from Data_Loader.reshape_data import reshape_data
+from Data_Loader.to_supervised import to_supervised
 import torch
 
 
